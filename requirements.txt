@@ -1,8 +1,8 @@
 pymongo 
 pymongo[srv]
 dnspython 
-pandas == 2.2.0 
-numpy  == 1.26.3
+pandas
+numpy 
 ensure
 pytest
 
