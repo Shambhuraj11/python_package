@@ -1,4 +1,3 @@
-
 from setuptools import setup, find_packages
 from typing import List
 
@@ -12,18 +11,6 @@ PKG_NAME= "dbautomation"
 AUTHOR_USER_NAME = "Shambhuraj11"
 AUTHOR_EMAIL = "shambhurajpatil11@gmail.com"
 
-HYPEN_E_DOT = "-e ."
-
-def get_requirement(file_path:str) -> List[str]:
-    requirements = []
-    with open(file_path) as f:
-        requirements = f.readlines()
-        requirements = [req.replace("\n","")for req in requirements]
-
-        if HYPEN_E_DOT in requirements:
-            requirements.remove(HYPEN_E_DOT)
-    
-    return requirements
 
 setup(
     name=PKG_NAME,
@@ -39,5 +26,4 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires = get_requirement("./requirements_dev.txt")
     )
