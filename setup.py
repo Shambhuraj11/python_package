@@ -6,7 +6,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
     
 __version__ = "0.0.3"
 REPO_NAME = "python_package"
-PKG_NAME= "dbautomation"
+PKG_NAME= "anydbconnect"
 AUTHOR_USER_NAME = "Shambhuraj11"
 AUTHOR_EMAIL = "shambhurajpatil11@gmail.com"
 
