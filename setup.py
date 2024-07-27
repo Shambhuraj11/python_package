@@ -4,7 +4,7 @@ from typing import List
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
     
-__version__ = "0.0.2"
+__version__ = "0.0.3"
 REPO_NAME = "python_package"
 PKG_NAME= "dbautomation"
 AUTHOR_USER_NAME = "Shambhuraj11"
